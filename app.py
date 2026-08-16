@@ -25,6 +25,11 @@ with open(MODEL_PATH, 'rb') as f:
 app = FastAPI()
 
 
+@app.get('/about')
+def about():
+    return {"message": "A fully functional API to Insurance Premium predictor"}
+
+
 # tier cities defination
 tier_1_cities = ["Mumbai", "Delhi", "Bangalore",
                  "Chennai", "Kolkata", "Hyderabad", "Pune"]

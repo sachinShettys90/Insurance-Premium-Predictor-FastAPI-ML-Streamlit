@@ -1,0 +1,23 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment directories
+# Add your venv folder names here (myenv, venv, .venv, env, etc.)
+myenv/
+venv/
+.venv/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*

@@ -187,12 +187,6 @@ _screenshots of the Streamlit UI and Swagger docs here._
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 ## 🙋 Author
 
 Built by **Sachin.S** as part of a hands-on Generative AI / ML learning project.

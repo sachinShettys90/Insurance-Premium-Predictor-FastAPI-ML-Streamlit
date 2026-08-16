@@ -1,6 +1,6 @@
 '''
 Run this app.py using this command  
-uvicorn Project_FastAPI_With_MLModel.app.py:app --reload
+uvicorn app:app --reload
 '''
 
 from fastapi import FastAPI, Path, Query
@@ -16,7 +16,7 @@ import pandas as pd
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, 'model.pkl')
+MODEL_PATH = os.path.join(BASE_DIR, 'MLModel', 'model.pkl')
 
 with open(MODEL_PATH, 'rb') as f:
     model = pickle.load(f)

@@ -89,3 +89,19 @@ class UserInput_PydanticModel(BaseModel):
             return 2
         else:
             return 3
+
+
+@app.post('/predict')
+def predict_premium(data: UserInput_PydanticModel):
+    input_df = pd.DataFrame([{
+        'bmi': data.bmi,
+        'age_group': data.age_group,
+        'lifestyle_risk': data.lifestyle_risk,
+        'city_tier': data.city_tier,
+        'income_lpa': data.income_lpa,
+        'occupation': data.occupation
+    }])
+
+    prediction = model.predict(input_df)[0]
+
+    return JSONResponse(status_code=200, content={'prediction_category': prediction})

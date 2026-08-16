@@ -195,7 +195,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙋 Author
 
-Built by **[Your Name]** as part of a hands-on Generative AI / ML learning project.
+Built by **Sachin.S** as part of a hands-on Generative AI / ML learning project.
 
-- GitHub: [your-github-profile]
-- LinkedIn: [your-linkedin-profile]
+- GitHub:https://github.com/sachinShettys90
+- LinkedIn:https://www.linkedin.com/in/sachin-shetty-5b476723b/
